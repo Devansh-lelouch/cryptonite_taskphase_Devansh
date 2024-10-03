@@ -9,3 +9,16 @@ We are invoking `pwn` program by using its absolute path
 Type in `/pwn`
 The flag is :
 >pwn.college{wZdhrZQtZGJRn1m7CZfx3bxfxvZ.dhzN5QDL4YjN0czW}
+
+## Program with absolute paths
+
+We need to invoke a file which is inside another directory which is in turn
+inside another directory. 
+
+`/challenge/run` first goes inside `/` directory and then in `challenge`
+and finally accesses the file `run`
+
+The flag is :
+>pwn.college{QMHsmYRqCCRTvklTMq4SjlIgK0y.dVDN1QDL4YjN0czW}
+
+## Position thy self
