@@ -1,1 +1,11 @@
+# Module Introduction
+In this module we learn about linux file paths.
+A root is the directory of the file , it starts with `/`
+We refer to files and directories by there paths.
 
+## The Root 
+We are invoking `pwn` program by using its absolute path
+
+Type in `/pwn`
+The flag is :
+>pwn.college{wZdhrZQtZGJRn1m7CZfx3bxfxvZ.dhzN5QDL4YjN0czW}
