@@ -79,3 +79,16 @@ The Flag is :
 >pwn.college{Y7tFiHpu3QOpPhbNRFSotN4KTAn.dFzM4QDL4YjN0czW}
 
 ## Finding Files
+
+
+
+
+## Linking Files 
+ a file is, conceptually, an address at which the contents of that file live. A hard link is an alternate 
+address that indexes that data accesses to the hard link and accesses to the original file are completely
+ identical, in that they immediate yield the necessary data. A soft/symbolic link, instead, contains the 
+original file name. When you access the symbolic link, Linux will realize that it is a symbolic link, read
+ the original file name, and then (typically) automatically access that file. In most cases, both 
+situations result in accessing the original data, but the mechanisms are different.
+
+
