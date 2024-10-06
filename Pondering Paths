@@ -32,3 +32,20 @@ hacker@paths~position-thy-self:/usr/share/doc/fontconfig$ /challenge/run
 
 The Flag is :
 >pwn.college{wcYC4Solqh-1e0pUK1nz691tw-R.dZDN1QDL4YjN0czW}
+
+
+## Position Elsewhere
+Same as the previous challenge.
+
+## Position Yet Elsewhere
+Same as 'Position thy self'
+
+## Implicit Relative Paths
+A relative path is any path that does not start at root (i.e., it does not start with /).
+A relative path is interpreted relative to your current working directory (cwd).
+Your cwd is the directory that your prompt is currently located at.
+
+We cd to `/` directory and then we run the file `challenge/run`
+
+The flag is :
+>pwn.college{Qqmgq1-qpw_jDsS9UDdug8oeinP.dlDN1QDL4YjN0czW}
