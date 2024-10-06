@@ -48,3 +48,17 @@ The flag is :
 
 ## Removing files 
 We use rm to remove files.
+Remove the file using `rm /delete_me` and then run the `/challenge/check`
+The flag is:
+>pwn.college{IurI3eQdSSObGCNyY-dvgn0owoq.dZTOwUDL4YjN0czW}
+
+## Hidden Files
+Sometimes ls wont display all the files as some files that start with `.` dont show up. In order to see those file you have to invoke ls with `-a`.
+ 
+Change the directory to `/` and type in `ls -a` 
+Use `cat` to read the hidden file and get the flag .
+The flag is :
+>pwn.college{M5_czuGwjsXY5HwB77S11RGplut.dBTN4QDL4YjN0czW}
+
+## An Epic filesystem Quest
+
