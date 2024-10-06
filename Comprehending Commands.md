@@ -61,4 +61,12 @@ The flag is :
 >pwn.college{M5_czuGwjsXY5HwB77S11RGplut.dBTN4QDL4YjN0czW}
 
 ## An Epic filesystem Quest
+ In this challenge we have to play a small clue based game to find the flag
 
+1 . `cd` to /
+2.  `ls` all the files 
+3 . Read the clue file 
+4. `ls` the clue file and then read that file to get next hint 
+
+Keep doing this till you get the flag 
+>pwn.college{IjnpkW_-JJw0DpC7CyUZ-qsiYFi.dljM4QDL4YjN0czW}
