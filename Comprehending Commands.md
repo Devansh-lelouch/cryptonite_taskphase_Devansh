@@ -70,3 +70,10 @@ The flag is :
 
 Keep doing this till you get the flag 
 >pwn.college{IjnpkW_-JJw0DpC7CyUZ-qsiYFi.dljM4QDL4YjN0czW}
+
+## Making Directories
+You make directories using the mkdir command.
+make a directory using `mkdir/tmp/pwn`and use the `touch college` to create a file called college within it 
+
+The Flag is :
+>pwn.college{Y7tFiHpu3QOpPhbNRFSotN4KTAn.dFzM4QDL4YjN0czW}
