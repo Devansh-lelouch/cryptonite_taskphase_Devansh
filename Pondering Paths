@@ -23,3 +23,12 @@ The flag is :
 
 ## Position thy self
 `cd` command is used to change directory 
+We have to change directory to get into `/usr/share/doc/fontconfig` and then run 
+`/challenge/run`
+
+the correct program would look like 
+>hacker@paths~position-thy-self:~$ cd /usr/share/doc/fontconfig
+hacker@paths~position-thy-self:/usr/share/doc/fontconfig$ /challenge/run
+
+The Flag is :
+>pwn.college{wcYC4Solqh-1e0pUK1nz691tw-R.dZDN1QDL4YjN0czW}
