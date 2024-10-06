@@ -84,11 +84,13 @@ The Flag is :
 
 
 ## Linking Files 
- a file is, conceptually, an address at which the contents of that file live. A hard link is an alternate 
-address that indexes that data accesses to the hard link and accesses to the original file are completely
- identical, in that they immediate yield the necessary data. A soft/symbolic link, instead, contains the 
-original file name. When you access the symbolic link, Linux will realize that it is a symbolic link, read
- the original file name, and then (typically) automatically access that file. In most cases, both 
-situations result in accessing the original data, but the mechanisms are different.
+In this challenge, we will learn about symbolic links (also also known as symlinks). Symbolic links are created with the ln command with the -s argument
 
+
+we have to read ` /home/hacker/not-the-flag ` file by making the file `flag` point towards it so we use the command
+`ln -s /flag /home/hacker/not-the-flag` to do this . 
+Now we run the `challenge/catflag` to get the flag. 
+
+The Flag is : 
+>pwn.college{Qrt3b-vSGEQ55CEJx6lgaKbg_KJ.dlTM1UDL4YjN0czW}
 
