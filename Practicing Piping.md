@@ -1,5 +1,5 @@
 # Practicing Piping
-Fifth module talking about input output redirection
+Sixth module talking about input output redirection
 
 ## Redirecting Output
 `>`character is used  to give output in a file 
