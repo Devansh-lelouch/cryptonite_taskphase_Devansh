@@ -11,3 +11,12 @@ having challenge to get the flag.
 
 The flag is :
  >pwn.college{84s2uG7hk94FJ2mHC-jrhUcwAnY.dFjM4QDL4YjN0czW}
+
+## Matching with ?
+Works like * but only matches single character
+`cd /?ha??enge` to change directory to the `challenge` and then running the final command 
+The flag is :
+>pwn.college{84swACfsEM61cTSrKnNLLK5sFQZ.dJjM4QDL4YjN0czW}
+
+## Matching with []
+Instead of matching characters it matches the subset of characters put in []
