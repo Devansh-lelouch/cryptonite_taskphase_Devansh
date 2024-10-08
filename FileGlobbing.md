@@ -20,3 +20,26 @@ The flag is :
 
 ## Matching with []
 Instead of matching characters it matches the subset of characters put in []
+`/challenge/run file_[bash]` gets the flag 
+>pwn.college{kCk3qqYXH7deMltoyHGSt99nOqI.dNjM4QDL4YjN0czW}
+
+## Matching paths with []
+Globbing happens on path basis so we can enter paths as arguments as well
+
+The flag is :
+>pwn.college{Eo_-iL5Qonz9S54jLRJIkru8OmH.dRjM4QDL4YjN0czW}
+
+## Mixing Globs
+
+
+
+## Exclusionary Globbing
+If the first character in the brackets is a ! or (in newer versions of bash) a ^,
+the glob inverts, and that bracket instance matches characters that aren't listed.
+
+change directory to `/challenge/files` using cd 
+run `/challenge/run [!pwn]*` to get the flag , this searches for all the files which doesnt start with p, w, n. 
+
+The flag is : 
+>pwn.college{I9MBoTgHIAVczGsz5PalagbSH97.dZjM4QDL4YjN0czW}
+
