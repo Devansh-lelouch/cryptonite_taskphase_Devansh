@@ -33,7 +33,12 @@ The Flag is :
  >pwn.college{wL5VgQwDf5-pLna0jbxYqkdlfcm.ddjN1QDL4YjN0czW}
 
 ## Redirecting Inputs 
-Use ```echo COLLEGE > PWN``` to redirect the output of echo COLLEGE to PWN
+Use 
+
+```
+echo COLLEGE > PWN
+```
+to redirect the output of echo COLLEGE to PWN
 
 Use` /challenge/run < PWN `to redirect the file PWN as input to /challenge/run
 
@@ -42,6 +47,7 @@ The Flag is :
 >pwn.college{YemPgxTAEQzlGMXfKKO4hQn9nt3.dBzN1QDL4YjN0czW}
 
 ## Grepping Stored results 
+Redirect the output of  of `/challenge/run` to `/tmp/data.txt` using
 
 The flag is :
 >pwn.college{AkWA5fjtbOesHNSFCeWZCj5PDPS.dhTM4QDL4YjN0czW}
