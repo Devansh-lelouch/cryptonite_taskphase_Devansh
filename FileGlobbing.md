@@ -30,8 +30,10 @@ The flag is :
 >pwn.college{Eo_-iL5Qonz9S54jLRJIkru8OmH.dRjM4QDL4YjN0czW}
 
 ## Mixing Globs
-
-
+cd to `/challenges/files`
+for extracting files named as challenge , education , pwning , use[] to wildcard initials and * to wildcard remaining characters.
+The flag is :
+>pwn.college{4lAmfaNw9FjHVqT-lonH7pdkN7a.dVjM4QDL4YjN0czW}
 
 ## Exclusionary Globbing
 If the first character in the brackets is a ! or (in newer versions of bash) a ^,
