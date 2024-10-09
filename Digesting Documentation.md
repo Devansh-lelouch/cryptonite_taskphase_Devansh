@@ -41,3 +41,22 @@ The flag is :
 ## Helpful commands 
 `--help , --? , -h , /? ` tells you how to run the manual. 
 ` man --help` to get all the info 
+Use /challenge/challenge --help to get :
+
+``` 
+usage: a challenge to make you ask for help [-h] [--fortune] [-v] [-g GIVE_THE_FLAG] [-p]                                                                                             optional arguments:                                                                          -h, --help            show this help message and exit                                      --fortune             read your fortune                                                    -v, --version         get the version number                                               -g GIVE_THE_FLAG, --give-the-flag GIVE_THE_FLAG                                                                  get the flag, if given the correct value                             -p, --print-value     print the value that will cause the -g option to give you the                              flag  
+```
+Run `/challenge/challenge -p` to get secret key the secret key is 761
+`/challenge/challenge -g 761` to get the flag 
+
+The Flag is : 
+>pwn.college{wxm_AO7P6Yy1527rTsc5CfF6KGy.ddjM4QDL4YjN0czW}
+
+## Help for Builtins
+Run the help challenge command to get the secret value.
+`challenge --secret kI6pQAgb` to get the flag.
+
+The flag is :
+>pwn.college{kI6pQAgb5qqD0w5WlWbcCqZo2pf.dRTM5QDL4YjN0czW}
+
+
