@@ -48,6 +48,36 @@ The Flag is :
 
 ## Grepping Stored results 
 Redirect the output of  of `/challenge/run` to `/tmp/data.txt` using
+Grep the file as the name starts from `pwn.college` using `grep pwn.college /tmp/data.txt`
+
 
 The flag is :
 >pwn.college{AkWA5fjtbOesHNSFCeWZCj5PDPS.dhTM4QDL4YjN0czW}
+
+## Grepping live output
+
+pipe | command can be used to avoide stroing results into a file 
+
+`/challenge/run | grep pwn.college` connect `/challenge/run` to `grep pwn.college` by using `|`
+
+The Flag is :
+>pwn.college{IlffW83-4cMKZktdTtUDkr_cwul.dlTM4QDL4YjN0czW}
+
+## Grepping errors
+The > operator redirects a given file descriptor to a file, and you've used 2> to redirect fd 2, which is standard error. The | 
+operator redirects only standard output to another program, and there is no 2| form of the operator! It can only redirect standard 
+output (file descriptor 1)
+
+The shell has a >& operator, which redirects a file descriptor to another file descriptor. This means that we can have a two-step
+process to grep through errors: first, we redirect standard error to standard output (2>& 1) and then pipe the now-combined stderr
+and stdout as normal (|)!
+
+>pwn.college{AVdM5iWv7aiYsZVavyEh6HNfREQ.dVDM5QDL4YjN0czW}
+
+## Duplicating piped data with tee
+`/challenge/pwn | tee doracake | /challenge/college`  Intercepts the command by using tee.
+`cat` into `doracake`
+We get the secret  argument to run the command and get the flag with 
+`/challenge/pwn --secret okSOD0Cx| /challenge/college`
+The Flag is:
+>pwn.college{okSOD0CxLMzKS8_xnNVo48YO1oO.dFjM5QDL4YjN0czW}
