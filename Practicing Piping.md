@@ -92,4 +92,12 @@ The flag is :
 
 ## Split-piping stderr and stdout
 
+Use 2> to redirect the `stderr` to `/challenge/the` and use `|` to redirect stdout to `/challenge/planet`
+
+`/challenge/hack 2> >(/challenge/the) | /challenge/planet` To get the flag
+
+The flag is :
+>pwn.college{4FaSO_HPFauyTIcXUxAa_3maJTV.dFDNwYDL4YjN0czW}
+
+
 
