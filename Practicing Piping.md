@@ -81,3 +81,15 @@ We get the secret  argument to run the command and get the flag with
 `/challenge/pwn --secret okSOD0Cx| /challenge/college`
 The Flag is:
 >pwn.college{okSOD0CxLMzKS8_xnNVo48YO1oO.dFjM5QDL4YjN0czW}
+
+## Writing to multiple programs
+Pipe `/challenge/hack` to `/challenge/the and /challenge/ planet`
+`/challenge/hack | tee >(/challenge/the) | /challenge/planet` gives the flag as :
+
+
+The flag is :
+>pwn.college{ke9iG223_Dr-C6CVyQ0FwxjBHXg.dBDO0UDL4YjN0czW}
+
+## Split-piping stderr and stdout
+
+
