@@ -64,13 +64,14 @@ The Flag is :
 >pwn.college{IlffW83-4cMKZktdTtUDkr_cwul.dlTM4QDL4YjN0czW}
 
 ## Grepping errors
-The > operator redirects a given file descriptor to a file, and you've used 2> to redirect fd 2, which is standard error. The | 
+The > operator redirects a given file descriptor to a file, and we have used 2> to redirect fd 2, which is standard error. The | 
 operator redirects only standard output to another program, and there is no 2| form of the operator! It can only redirect standard 
-output (file descriptor 1)
+output 
 
 The shell has a >& operator, which redirects a file descriptor to another file descriptor. This means that we can have a two-step
 process to grep through errors: first, we redirect standard error to standard output (2>& 1) and then pipe the now-combined stderr
 and stdout as normal (|)!
+
 
 >pwn.college{AVdM5iWv7aiYsZVavyEh6HNfREQ.dVDM5QDL4YjN0czW}
 
