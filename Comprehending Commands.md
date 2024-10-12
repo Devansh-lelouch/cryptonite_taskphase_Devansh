@@ -64,8 +64,11 @@ The flag is :
  In this challenge we have to play a small clue based game to find the flag
 
 1 . `cd` to /
+
 2.  `ls` all the files 
+
 3 . Read the clue file 
+
 4. `ls` the clue file and then read that file to get next hint 
 
 Keep doing this till you get the flag 
