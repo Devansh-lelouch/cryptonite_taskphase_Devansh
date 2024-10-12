@@ -65,9 +65,9 @@ Based on similar concept as previous one we have to use `cd` to go to `/challeng
 `./run` file 
 
 The Flag is :
-pwn.college{Ap-QRs7ETeO6w0XdVi6Ey1uMT01.dFTN1QDL4YjN0czW}
+>pwn.college{Ap-QRs7ETeO6w0XdVi6Ey1uMT01.dFTN1QDL4YjN0czW}
 
-#Home Sweet Home
+##Home Sweet Home
 Every user is has a home directory and it is where most of the personal files are stored 
 
 `~` is used as a shorthand for the home directory 
