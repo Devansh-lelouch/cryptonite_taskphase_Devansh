@@ -1,5 +1,8 @@
 Some variables are local to the shell meaning those commands wont be able to run outside 
 of that shell.
+
+We set a variable `PWN` to `COLLEGE` and `COLLEGE` to `PWN` but only export `PWN` variable.
+
 ![image](https://github.com/user-attachments/assets/bfe600d2-36a4-4f3f-92e3-f33432cbe893)
 
 
